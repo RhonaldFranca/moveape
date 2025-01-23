@@ -53,8 +53,8 @@ body {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
-    background: url('https://via.placeholder.com/1920x1080') center/cover no-repeat;
+    height: 80vh;
+    /*background: url('https://placehold.co/1920x1080') center/cover no-repeat;*/
     color: #0c0079;
     display: flex;
     justify-content: center;
@@ -63,6 +63,11 @@ body {
     padding: 0 1rem;
 }
 
+.hero-content {
+    text-align: start;
+    margin-right: 100px;
+    justify-content: space-around;
+}
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -83,21 +88,46 @@ body {
     font-size: 1rem;
     transition: background 0.3s ease;
 }
-
-.hero .btn-primary:hover {
-    background: #e76f51;
+.hero .btn-second {
+    padding: 0.8rem 1.5rem;
+    color: #0c0079;
+    border: 2px #0c0079 solid;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s ease;
 }
-
+.hero .btn-primary:hover {
+    background: #0c0079;
+}
+.hero .btn-second:hover {
+    border: 2px #00aeff solid;
+    color: #00aeff;
+}
 /* About Section */
 #about {
+    display: flex;
     padding: 2rem 1rem;
-    text-align: center;
-    background: #ffffff;
+    text-align: start;
+    align-items: center;
+    justify-content:space-around;
+    background: #10B0A8  ;
 }
 
+.container{
+    display: flex;
+    background-color: #fff;
+    width: 90%;
+    height: 600px;
+    padding: 50px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
 #about h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color:#10B0A8
 }
 
 #about p {
