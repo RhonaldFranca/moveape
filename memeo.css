@@ -107,7 +107,7 @@ body {
     transition: background 0.3s ease;
 }
 
-.btn-second {
+.hero .btn-second {
     padding: 0.8rem 1.5rem;
     color: #ffffff;
     background-color: #00a2ff;
@@ -121,7 +121,7 @@ body {
     background: #0c0079;
 }
 
-.btn-second:hover {
+.hero .btn-second:hover {
     border: 2px #00aeff solid;
     color: #ffffff;
 }
@@ -277,9 +277,6 @@ footer {
     }
     .hero-content p {
         font-style: bold;
-    }
-    .container{
-        padding: 20px;
     }
 
     .hero h1 {

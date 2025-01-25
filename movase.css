@@ -55,22 +55,22 @@ body {
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(rgba(5, 0, 28, 0.793), rgba(7, 1, 37, 0.863)), 
+    background-image: linear-gradient(rgba(5, 0, 28, 0.806), rgba(7, 1, 37, 0.806)), 
                       url("https://i.postimg.cc/7hVkTMqv/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
-    padding: 30px;
+    height: 720px;
     color: #ebe8ff;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 .hero-content {
-    display: flex;
+    display: block;
     flex-direction: column;
     max-width: 1000px;
     text-align: center;
@@ -81,7 +81,7 @@ body {
 
 .hero-container img {
     padding: 30px;
-    width: 600px;
+    width: 500px;
     margin-top: 30px;
 }
 
@@ -96,35 +96,22 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.hero .btn-primary {
-    padding: 0.8rem 1.5rem;
-    background: #00aeff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: background 0.3s ease;
-}
+
 
 .btn-second {
     padding: 0.8rem 1.5rem;
     color: #ffffff;
-    background-color: #00a2ff;
+    border: 1px #ffffff solid;
     border-radius: 5px;
-    text-decoration: none;
-    font-size: 20px;
+    font-size: 1rem;
     transition: background 0.3s ease;
+    display: ;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-.hero .btn-primary:hover {
-    background: #0c0079;
-}
-
-.btn-second:hover {
-    border: 2px #00aeff solid;
-    color: #ffffff;
-}
 
 /* About Section */
 #about {
@@ -267,7 +254,7 @@ footer {
     }
     .hero{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 20px 15px;
     }
     .hero-content {
@@ -277,9 +264,6 @@ footer {
     }
     .hero-content p {
         font-style: bold;
-    }
-    .container{
-        padding: 20px;
     }
 
     .hero h1 {
