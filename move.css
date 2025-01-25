@@ -304,6 +304,11 @@ footer {
         font-size: 0.9rem;
         padding: 0.6rem 1rem;
     }
+    .hero .btn-second {
+        font-size: 1rem;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
 
     #about .container {
         flex-direction: column;
