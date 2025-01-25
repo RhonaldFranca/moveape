@@ -259,6 +259,56 @@ footer {
     .hamburger {
         display: flex; /* Exibe o botão de hambúrguer em dispositivos móveis */
     }
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 1rem;
+    }
+    #about h2 {
+        font-size: 2em;
+    }
+    .container-text{
+        display: flex;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .hero-content{
+        padding: 0;
+        margin: 0;
+    }
+    .hero img{
+        width: 100%;
+        padding: 0%;
+    }
+
+    .btn-primary {
+        font-size: 0.9rem;
+        padding: 0.6rem 1rem;
+    }
+
+    #about .container {
+        flex-direction: column;
+    }
+    #about .container img{
+        width: 100%;
+    }
+    .roteiro{
+       
+
+    }
+    .container-roteiro{
+        width: 100%;
+        padding: 10px;
+    }
+    
+
 }
 
 @media (max-width: 480px) {
