@@ -105,6 +105,8 @@ body {
     border-radius: 5px;
     font-size: 1rem;
     transition: background 0.3s ease;
+    background-color: #0066ff;
+    border: none;
     display: flex;
     width: 300px;
     align-items: center;
