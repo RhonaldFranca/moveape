@@ -253,7 +253,7 @@ footer {
         display: flex; /* Exibe o botão de hambúrguer em dispositivos móveis */
     }
     .hero{
-        margin-top: 30%;
+        margin-top: 40%;
         display: flex;
         flex-direction: column-reverse;
         padding: 20px 15px;
